@@ -9,8 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack(alignment: .bottom) {
+            Image("background")
+                .resizable()
+                .scaledToFill()
+                .edgesIgnoringSafeArea(.all)
+                .frame(width: UIScreen.main.bounds.width)
+            
+            LoginFormView()
+        }
+        .edgesIgnoringSafeArea(.bottom)
     }
 }
 
