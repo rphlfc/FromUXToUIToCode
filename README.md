@@ -1,4 +1,4 @@
-# UI to UX to Code
+# UX to UI to Code
 Encontrei essa [tela de login](https://www.instagram.com/p/CFZnfcyiZ5b/) pelo Instagram e achei interessante implementar o efeito de blur. Nunca tinha feito e foi bom pra treinar.
 
 ## Screenshots
